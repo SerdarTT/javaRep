@@ -6,6 +6,7 @@ public class Date {
     public static void main(String[] args) {
 
         addHours(2);
+        addHours(20);
 
     }
     public static void addHours(int hour){
