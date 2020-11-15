@@ -1,11 +1,9 @@
 package HM1;
 
-public class Accounts extends Customer {
+public class Accounts{
     String accountName;
 
-    public Accounts(String name, int ssn) {
-        super(name, ssn);
-    }
+
 
 
     public void savingAccount(String accntname){

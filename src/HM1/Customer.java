@@ -1,6 +1,6 @@
 package HM1;
 
-public class Customer {
+public class Customer extends Accounts{
 
     String name;
     int ssn;
@@ -22,12 +22,15 @@ public class Customer {
         this.name = name;
         this.ssn = ssn;
         this.city = city;
+        Accounts ca = new Accounts();
+        ca.checkingAccount("");
 
 
 
 
     }
     public void makeDeposit(double amount){
+
         balance+=amount;
     }
     public void withDraw(int amount){

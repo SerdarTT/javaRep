@@ -17,7 +17,6 @@ public class Bank {
 
         System.out.println(" ");
 
-        
 
         myCustomers.add(c1);
         c1.accountNum(23456);
