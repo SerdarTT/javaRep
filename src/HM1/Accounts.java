@@ -1,16 +1,17 @@
 package HM1;
 
 public class Accounts{
-    String accountName;
 
 
 
 
-    public void savingAccount(String accntname){
-        accountName = accntname;
+
+    public void savingAccount(String accountType, int accountNumber){
+        System.out.println("Account Type: "+accountType+" "+accountNumber);
+
     }
-    public void checkingAccount(String acntName){
-        this.accountName = acntName;
+    public void checkingAccount( String AccountType, int AccountNo){
+        System.out.println("Account Type: "+AccountType+" "+AccountNo);
     }
 }
 

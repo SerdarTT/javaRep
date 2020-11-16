@@ -22,15 +22,16 @@ public class Customer extends Accounts{
         this.name = name;
         this.ssn = ssn;
         this.city = city;
-        Accounts ca = new Accounts();
-        ca.checkingAccount("");
+
+
 
 
 
 
     }
     public void makeDeposit(double amount){
-
+        //checkingAccount("Cehcking Account");
+        //savingAccount(2233356, "Saving Account");
         balance+=amount;
     }
     public void withDraw(int amount){
@@ -47,7 +48,7 @@ public class Customer extends Accounts{
         System.out.println("Name of the customer: "+name);
         System.out.println("SSN of customer: "+ssn);
         System.out.println("The city of customer: "+city);
-        System.out.println("Customer account number: "+accntNum);
+        //System.out.println("Customer account number: "+accntNum);
 
 
 
